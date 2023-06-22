@@ -1,0 +1,145 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+.container1{
+    display: flex;  
+    flex-direction: column; 
+    background: #1f2937;
+    width: 100%;
+    padding: 0 ;
+    margin: 0;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+    margin-bottom: 100px;
+    margin-top: 16px;
+}
+
+ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 70px;
+}
+
+.col1{
+    max-width: 400px;
+}
+
+.head-image{
+    width: 500px;
+    height: 225px;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header2{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    font-family: 'her';
+
+}
+
+.row1, a{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1{
+    background-color:dodgerblue;
+    color: #e5e7eb;
+    font-weight:bolder;
+    padding: 4px 20px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 36px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.subtext{
+    text-align: center;
+}
+
+.card-image{
+    width: 200px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.header3{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
+
+.container3{
+    display: flex;
+    background:#e5e7eb;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #1f2937;
+    color: #f9faf8;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}

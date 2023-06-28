@@ -87,12 +87,17 @@ ul{
     color: #e5e7eb;
 }
 
+.button1-container-span{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .button1{
-    width: 25%;
+    flex-shrink: 0;
     background-color:dodgerblue;
     color: #e5e7eb;
     font-weight:bolder;
-    padding: 4px 20px;
+    padding: 4px 27px;
     border-radius: 8px;
     margin-top: 12px;
 }
@@ -205,13 +210,22 @@ ul{
    color: #e5e7eb;
 }
 
+.container4-button-span{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container4-button{
+    flex-shrink: 0;
     background: #3882f6;
     color: white;
     font-weight: 800;
-    padding: 0 32px;
+    padding: 10px 32px;
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .footer{
